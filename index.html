@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bubble Ball Mayhem</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-br from-blue-600 via-cyan-500 to-green-400 min-h-screen text-white font-sans">
+  <!-- Hero Section -->
+  <header class="relative flex flex-col items-center justify-center text-center py-24 px-6">
+    <h1 class="text-6xl font-extrabold drop-shadow-lg animate-bounce">
+      Bubble Ball Mayhem!
+    </h1>
+    <p class="mt-6 text-xl max-w-2xl font-light">
+      Get ready to roll, bump, and bounce with the ultimate bubble ball rental experience.
+      Perfect for parties, events, and pure chaos!
+    </p>
+    <a href="#pricing" class="mt-10 px-10 py-4 bg-pink-500 hover:bg-pink-600 text-xl rounded-full shadow-2xl animate-pulse">
+      Book Now!
+    </a>
+  </header>
+
+  <!-- Features -->
+  <section class="grid md:grid-cols-3 gap-8 px-10 py-20 bg-black/30">
+    <div class="p-6 rounded-2xl bg-white/10 backdrop-blur-md shadow-lg hover:scale-105 transition-transform">
+      <h2 class="text-3xl font-bold mb-4">🎉 Party Ready</h2>
+      <p>Birthdays, schools, or company events — bubble ball turns any occasion into non-stop fun!</p>
+    </div>
+    <div class="p-6 rounded-2xl bg-white/10 backdrop-blur-md shadow-lg hover:scale-105 transition-transform">
+      <h2 class="text-3xl font-bold mb-4">⚡ Extreme Fun</h2>
+      <p>Bounce, crash, and roll safely inside giant inflatable bubbles. It's like bumper cars — but YOU are the car!</p>
+    </div>
+    <div class="p-6 rounded-2xl bg-white/10 backdrop-blur-md shadow-lg hover:scale-105 transition-transform">
+      <h2 class="text-3xl font-bold mb-4">📍 We Come to You</h2>
+      <p>Our team sets everything up at your location. Indoors, outdoors, fields, gyms — we make it happen.</p>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section class="py-20 px-6 text-center">
+    <h2 class="text-5xl font-extrabold mb-10 drop-shadow-lg">Action Shots 📸</h2>
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="h-64 bg-[url('https://images.unsplash.com/photo-1599058917212-23a7e7b3c7c1?fit=crop&w=800&q=80')] bg-cover bg-center rounded-2xl shadow-xl" role="img" aria-label="Bubble ball action 1"></div>
+      <div class="h-64 bg-[url('https://images.unsplash.com/photo-1595968302774-11cfec06b9a3?fit=crop&w=800&q=80')] bg-cover bg-center rounded-2xl shadow-xl" role="img" aria-label="Bubble ball action 2"></div>
+      <div class="h-64 bg-[url('https://images.unsplash.com/photo-1605902711622-cfb43c4437c2?fit=crop&w=800&q=80')] bg-cover bg-center rounded-2xl shadow-xl" role="img" aria-label="Bubble ball action 3"></div>
+    </div>
+  </section>
+
+  <!-- Pricing Section -->
+  <section id="pricing" class="py-20 px-6 bg-black/40">
+    <h2 class="text-5xl font-extrabold text-center mb-12">Pricing & Packages 💸</h2>
+    <div class="grid md:grid-cols-3 gap-10 max-w-6xl mx-auto">
+      <div class="p-8 rounded-2xl bg-white/10 backdrop-blur-md shadow-xl hover:scale-105 transition-transform">
+        <h3 class="text-3xl font-bold mb-4">🎂 Birthday Bash</h3>
+        <p class="mb-4">2 hours of bubble ball chaos with setup included. Perfect for kids & teens.</p>
+        <p class="text-2xl font-extrabold mb-6">$250</p>
+        <a href="#contact" class="inline-block px-8 py-3 bg-pink-500 hover:bg-pink-600 rounded-full font-bold shadow-lg">Book Birthday</a>
+      </div>
+      <div class="p-8 rounded-2xl bg-white/10 backdrop-blur-md shadow-xl hover:scale-105 transition-transform border-4 border-yellow-400">
+        <h3 class="text-3xl font-bold mb-4">🏢 Corporate Clash</h3>
+        <p class="mb-4">3 hours, larger setup, and team building games. Great for work events!</p>
+        <p class="text-2xl font-extrabold mb-6">$400</p>
+        <a href="#contact" class="inline-block px-8 py-3 bg-yellow-400 text-black hover:bg-yellow-500 rounded-full font-bold shadow-lg">Book Corporate</a>
+      </div>
+      <div class="p-8 rounded-2xl bg-white/10 backdrop-blur-md shadow-xl hover:scale-105 transition-transform">
+        <h3 class="text-3xl font-bold mb-4">🏫 School Frenzy</h3>
+        <p class="mb-4">Full day rentals for schools, camps, or large groups. Maximum mayhem guaranteed.</p>
+        <p class="text-2xl font-extrabold mb-6">$600</p>
+        <a href="#contact" class="inline-block px-8 py-3 bg-green-400 hover:bg-green-500 text-black rounded-full font-bold shadow-lg">Book School Event</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section class="bg-pink-600 py-20 text-center">
+    <h2 class="text-4xl font-bold mb-6">Ready to Bounce?</h2>
+    <p class="text-lg max-w-2xl mx-auto mb-8">
+      Secure your bubble ball rental today and let the mayhem begin! Available across Massachusetts.
+    </p>
+    <a href="#contact" class="px-12 py-5 bg-yellow-400 text-black font-bold text-xl rounded-full shadow-xl hover:scale-110 transition-transform">
+      Reserve Your Spot
+    </a>
+  </section>
+
+  <!-- Simple Contact (mailto) -->
+  <section id="contact" class="py-16 px-6 text-center">
+    <h3 class="text-3xl font-bold mb-4">Contact & Booking</h3>
+    <p class="mb-6">Email us to confirm availability and finalize your booking.</p>
+    <a href="mailto:book@bubbleballmayhem.com?subject=Bubble%20Ball%20Booking%20Request" class="inline-block px-10 py-4 bg-black/60 hover:bg-black/80 rounded-full font-semibold shadow-lg">Email: book@bubbleballmayhem.com</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black/80 text-center py-8 text-sm">
+    <p>© 2025 Bubble Ball Mayhem | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
